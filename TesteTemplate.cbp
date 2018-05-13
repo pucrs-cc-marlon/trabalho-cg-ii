@@ -7,8 +7,8 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output=".\TesteTemplate" prefix_auto="1" extension_auto="1" />
-				<Option object_output=".\" />
+				<Option output="./TesteTemplate" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Option parameters="20" />
@@ -17,8 +17,8 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output=".\TesteTemplate" prefix_auto="1" extension_auto="1" />
-				<Option object_output=".\" />
+				<Option output="./TesteTemplate" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -33,7 +33,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 			<Add option="-DFREEGLUT_STATIC" />
-			<Add directory="C:\Program Files\CodeBlocks\MinGW\include" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
 			<Add directory="include" />
 		</Compiler>
 		<Linker>
@@ -45,10 +45,21 @@
 			<Add library="libjpeg-8b" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="include/GL/freeglut.h" />
+		<Unit filename="include/GL/freeglut_ext.h" />
+		<Unit filename="include/GL/freeglut_std.h" />
+		<Unit filename="include/GL/glut.h" />
+		<Unit filename="include/jconfig.h" />
+		<Unit filename="include/jerror.h" />
+		<Unit filename="include/jmorecfg.h" />
+		<Unit filename="include/jpeglib.h" />
+		<Unit filename="include/jversion.h" />
+		<Unit filename="include/xjinclude.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
