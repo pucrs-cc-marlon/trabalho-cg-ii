@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1526178336 source:f:\users\marlon\documents\ciência da computação\cg\trabalhoii\main.cpp
+	<stdlib.h>
+	<GL/glut.h>
+
+1298986600 f:\users\marlon\documents\ciência da computação\cg\trabalhoii\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 f:\users\marlon\documents\ciência da computação\cg\trabalhoii\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 f:\users\marlon\documents\ciência da computação\cg\trabalhoii\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 f:\users\marlon\documents\ciência da computação\cg\trabalhoii\include\gl\freeglut_ext.h
+
